@@ -1,7 +1,7 @@
 {
   "posts": [
     {
-      "id": 1,
+      "id": "1",
       "username": "nature_lover",
       "profileImage": "User1",
       "imageUrl": "Pic1",
@@ -10,7 +10,7 @@
       "timestamp": "2025-08-08T09:24:00Z"
     },
     {
-      "id": 2,
+      "id": "2",
       "username": "foodie_vibes",
       "profileImage": "User2",
       "imageUrl": "Pic2",
@@ -19,7 +19,7 @@
       "timestamp": "2025-08-07T14:45:00Z"
     },
     {
-      "id": 3,
+      "id": "3",
       "username": "travel_diaries",
       "profileImage": "User3",
       "imageUrl": "Pic3",
@@ -28,7 +28,7 @@
       "timestamp": "2025-08-05T18:30:00Z"
     },
     {
-      "id": 4,
+      "id": "4",
       "username": "urban_shooter",
       "profileImage": "User4",
       "imageUrl": "Pic4",
@@ -37,7 +37,7 @@
       "timestamp": "2025-08-04T20:12:00Z"
     },
     {
-      "id": 5,
+      "id": "5",
       "username": "fitness_guru",
       "profileImage": "User5",
       "imageUrl": "Pic5",
@@ -46,34 +46,36 @@
       "timestamp": "2025-08-03T06:15:00Z"
     }
   ],
-   "profile":{
-       "id": 1,
-      "username": "nature_lover",
-      "profileImage": "User1"
-    },
-  
-  "suggestions":[
-     {
-      "id": 2,
+  "profile": {
+    "id": 1,
+    "username": "ik",
+    "profileImage": "User1"
+  },
+  "suggestions": [
+    {
+      "id": "2",
       "username": "foodie_vibes",
       "profileImage": "User2"
-    },{
-      "id": 3,
+    },
+    {
+      "id": "3",
       "username": "travel_diaries",
       "profileImage": "User3"
-    },{
-      "id": 4,
+    },
+    {
+      "id": "4",
       "username": "urban_shooter",
       "profileImage": "User4"
-    },{
-      "id": 5,
+    },
+    {
+      "id": "5",
       "username": "fitness_guru",
       "profileImage": "User5"
     }
   ],
   "story": [
     {
-      "id": 1,
+      "id": "1",
       "username": "nature_lover",
       "profileImage": "User1",
       "imageUrl": "s1",
@@ -82,7 +84,7 @@
       "timestamp": "2025-08-08T09:24:00Z"
     },
     {
-      "id": 2,
+      "id": "2",
       "username": "foodie_vibes",
       "profileImage": "User2",
       "imageUrl": "s2",
@@ -91,7 +93,7 @@
       "timestamp": "2025-08-07T14:45:00Z"
     },
     {
-      "id": 3,
+      "id": "3",
       "username": "travel_diaries",
       "profileImage": "User3",
       "imageUrl": "s3",
@@ -100,7 +102,7 @@
       "timestamp": "2025-08-05T18:30:00Z"
     },
     {
-      "id": 4,
+      "id": "4",
       "username": "urban_shooter",
       "profileImage": "User4",
       "imageUrl": "s4",
@@ -109,7 +111,7 @@
       "timestamp": "2025-08-04T20:12:00Z"
     },
     {
-      "id": 5,
+      "id": "5",
       "username": "fitness_guru",
       "profileImage": "User5",
       "imageUrl": "s5",
@@ -117,6 +119,19 @@
       "likes": 987,
       "timestamp": "2025-08-03T06:15:00Z"
     }
+  ],
+  "followers": [
+    {
+      "id": "5",
+      "username": "fitness_guru"
+    },
+    {
+      "id": "3",
+      "username": "travel_diaries"
+    },
+    {
+      "id": "2",
+      "username": "foodie_vibes"
+    }
   ]
-
 }
