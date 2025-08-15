@@ -12,10 +12,10 @@ function Profile() {
       .then((data) => setProfile(data.data));
   }, []);
   return (
-    <div>
+    <div className="m-5">
       {profile ? (
-        <div>
-          <img src={profile1[profile.profileImage]}></img>
+        <div >
+          <img src={profile1[profile.profileImage]} className=" profile rounded-circle"></img>
           <h5>{profile.username}</h5>
         </div>
       ) : (
